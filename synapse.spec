@@ -3,7 +3,7 @@ Version:       0.2.99.1
 Release:       1%{?dist}
 Summary:       A semantic file launcher
 
-License:       GPLv3
+License:       GPLv3+
 URL:           https://launchpad.net/synapse-project
 Source0:       https://launchpad.net/synapse-project/0.3/0.2.99.1/+download/%{name}-%{version}.tar.xz
 
@@ -35,7 +35,7 @@ and files by making use of the Zeitgeist engine.
 %setup -q
 
 %build
-%configure
+%configure --disable-static --enable-zeitgeist=yes
 %make_build
 
 %install
