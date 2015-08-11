@@ -20,7 +20,7 @@ BuildRequires: pkgconfig(json-glib-1.0)
 BuildRequires: pkgconfig(keybinder-3.0) 
 BuildRequires: pkgconfig(libnotify)
 BuildRequires: pkgconfig(zeitgeist-2.0)
-BuildRequires: pkgconfig(libvala-0.28)
+BuildRequires: vala-devel
 BuildRequires: pkgconfig(rest-0.7)
 BuildRequires: pkgconfig(appindicator3-0.1)
 # check
